@@ -1,0 +1,129 @@
+
+
+@-keyframes grow-99{
+   from { right: 100%; }
+   to   { right: 0%; }
+}
+
+@-webkit-keyframes grow-99{
+   from { right: 100%; }
+   to   { right: 0%; }
+}
+
+@-keyframes grow-66{
+   from { right: 100%; }
+   to   { right: 33%; }
+}
+
+@-webkit-keyframes grow-66{
+   from { right: 100%; }
+   to   { right: 33%; }
+}
+
+@-keyframes grow-33{
+   from { right: 100%; }
+   to   { right: 66%; }
+}
+
+@-webkit-keyframes grow-33 {
+   from { right: 100%; }
+   to   { right: 66%; }
+}
+
+#skills {
+  margin: 10px auto 50px auto;
+  position: relative;
+  width: 98%;
+  align-content: center; 
+}
+
+#apps {
+  float: left;
+  text-align: right;
+  width: 19%;
+}
+
+#apps p {
+  padding: 4px 8px 4px 0px;
+  position: relative;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+#scale {
+  padding-bottom: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+}
+
+#scale p {
+  position: absolute;
+  bottom: 0;
+  left: -0.30%;
+  margin-bottom: 0; 
+  font-weight: 900; 
+}
+
+#scale p.one { left: 33%; }
+#scale p.two { left: 66%; }
+#scale p.three { left: 99%; }
+/*#scale p.four { left: 99%; }*/
+
+.grid {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  float: left;
+  padding: 10px 0;
+  position: relative;
+  width: 75%;
+}
+
+.bar {
+  float: left;
+  height: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.bar .inner {
+  background-color: #00688B;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+}
+
+.bar.pct-99 .inner {  
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: grow-99;
+  right: 0%;
+}
+
+.bar.pct-66 .inner {  
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: grow-66;
+  right: 33%;
+}
+
+.bar.pct-33 .inner {  
+  -webkit-animation-duration: 4s;
+  -webkit-animation-name: grow-33;
+  right: 66%;
+}
+
+.v-divider {
+  border-right: 2px dotted black;
+  position: absolute;
+  left: 0;
+  right: 0%;
+  bottom: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.v-divider.one { right: 33%; }
+.v-divider.two { right: 66%; }

@@ -1,0 +1,140 @@
+/*CSS FOR THE PROJECT SECTION OF THE PORTFOLIO*/
+
+.project-role .project-role-title {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-style: italic;
+	color: green;
+}
+
+.project-role .project-role-description {
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.project-role .project-role-description ul{
+	margin-left: 30px;
+}
+
+.project-role .project-role-description ul li{
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+.project-work .project-work-title {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 50px;
+	font-style: italic;
+	color: green;
+}
+
+.project-work .project-work-description {
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.project-work .project-work-description ul{
+	margin-left: 30px;
+}
+
+.project-work .project-work-description ul li{
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+.project-accomplishment .project-accomplishment-title {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 50px;
+	font-style: italic;
+	color: green;
+}
+
+.project-accomplishment .project-accomplishment-description {
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.project-accomplishment .project-accomplishment-description ul{
+	margin-left: 30px;
+}
+
+.project-accomplishment .project-accomplishment-description ul li{
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+
+.project-process .project-process-title {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 50px;
+	font-style: italic;
+	color: green;
+}
+
+.project-process .project-process-description {
+	text-align: justify;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+.project-process .project-process-description .project-process-image img{
+	height: auto;
+	max-width: 100%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.project-process .project-process-description .project-process-image{
+}
+
+.lb-md {
+	font-size: 14px;
+	font-weight:500;
+	margin-right: 10px
+}
+
+.label-container {
+	padding-top: 10px;
+
+}
+
+.project-summary-title {
+	text-decoration-color: #d6ab60;
+	font-size: 18px;
+	color:#d6ab60;
+	font-weight: 800;
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+
+.project-detail {
+	margin-top: 20px;
+	overflow: scroll;
+    z-index: 500;
+    float:right;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
